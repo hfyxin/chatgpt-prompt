@@ -1,0 +1,7 @@
+Use pyqt6, write an example of a window that include the following components:
+- menu bar that includes "File", "Detection", and "Settings" menu
+- Under "File", add a "Open raw data file (.csv) .." and a "Open sig file (.npy)" actions. Leave the functions empty for further implementation.
+- Under "Detection", add "Init package 1" and "Init package 2" actions. Leave the functions empty
+- "Settings" will open up a new dialogue which blocks the main window (can't do anything on main window if settings dialog is open). The Settings dialog contains three checkbox items and Save/Cancel buttons. Leave the checkboxes callback function empty.
+- In the main window, draw a text label on top, followed by a large text edit box on the bottom. Leave them blank
+- The main window also has a status bar on the bottom. The left side of status bar shows indicator 1 and the right side shows indicator 2. These indicators are short string values. Write functions to update these values.
